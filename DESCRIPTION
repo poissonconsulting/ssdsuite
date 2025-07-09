@@ -11,27 +11,11 @@ Authors@R: c(
     person("Seb", "Dalgarno", , "seb@poissonconsulting.ca", role = "ctb",
            comment = c(ORCID = "0000-0002-3658-4517")),
     person("Kathleen", "McTavish", role = "ctb"),
-    person("Heather", "Thompson", role = "ctb"), 
+    person("Heather", "Thompson", role = "ctb"),
     person("Doug", "Spry", role = "ctb"),
     person("Rick", "van Dam", role = "ctb"),
     person("Graham", "Batley", role = "ctb"),
     person("Ali", "Azizishirazi", role = "ctb"),
-    person("Nadine", "Hussein", , "nadine@poissonconsulting.ca", role = "ctb",
-           comment = c(ORCID = "0000-0003-4470-8361")),
-    person("Sarah", "Lyons", , "sarah@poissonconsulting.ca", role = "ctb",
-           comment = c(ORCID = "0000-0002-6745-6796")),
-    person("Duncan", "Kennedy", , "duncan@poissonconsulting.ca", role = "ctb",
-           comment = c(ORCID = "0009-0001-4880-5751")),
-    person("Stephanie", "Hazlitt", role = "ctb"),
-    person("Hadley", "Wickham", role = "ctb"),
-    person("Sergio", "Ibarra Espinosa", role = "ctb"),
-    person("Andy", "Teucher", role = "ctb"),
-    person("Emilie", "Doussantousse", role = "ctb"),
-    person("Nan-Hung", "Hsieh", role = "ctb"),
-    person("Florencia", "D'Andrea", role = "ctb"),
-    person("Eduard", "Szöcs", role = "ctb", comment = c(ORCID = "0000-0001-5376-1194")),
-    person("Province of British Columbia", role = c("fnd", "cph")),
-    person("Environment and Climate Change Canada", role = c("fnd", "cph")),
     person("Australian Government Department of Climate Change, Energy, the Environment and Water", role = c("fnd", "cph"))
   )
 Description: Species sensitivity distributions are cumulative probability
@@ -47,21 +31,21 @@ URL: https://github.com/bcgov/ssdsuite, https://bcgov.github.io/ssdsuite/
 BugReports: https://github.com/bcgov/ssdsuite/issues
 Depends:
     R (>= 4.1)
-Encoding: UTF-8
 Imports:
     envirotox,
     ssddata,
     ssdsims,
-    ssdtools,
     ssdtests,
-Remotes:
-    poissonconsulting/envirotox,
-    open-AIMS/ssddata,
-    poissonconsulting/ssdsims,
-    poissonconsulting/ssdtests,
-    poissonconsulting/bboutools
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2.9000
+    ssdtools
 Suggests: 
     testthat (>= 3.0.0)
+Remotes:
+    open-AIMS/ssddata,
+    poissonconsulting/bboutools,
+    poissonconsulting/envirotox,
+    poissonconsulting/ssdsims,
+    poissonconsulting/ssdtests
 Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2.9000
