@@ -49,10 +49,16 @@ Depends:
     R (>= 4.1)
 Encoding: UTF-8
 Imports:
+    envirotox,
     ssddata,
     ssdsims,
     ssdtools,
     ssdtests,
-    envirotox
+Remotes:
+    poissonconsulting/envirotox,
+    open-AIMS/ssddata,
+    poissonconsulting/ssdsims,
+    poissonconsulting/ssdtests,
+    poissonconsulting/bboutools
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2.9000
