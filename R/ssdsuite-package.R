@@ -17,5 +17,10 @@
 "_PACKAGE"
 
 ## usethis namespace: start
+#' @importFrom shinyssdtools run_app
+#' @importFrom ssddata ssd_data_sets
+#' @importFrom ssdsims ssd_generate_data
+#' @importFrom ssdtests ssdtests_licensing_md
+#' @importFrom ssdtools ssd_dists
 ## usethis namespace: end
 NULL
