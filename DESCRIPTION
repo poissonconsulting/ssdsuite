@@ -33,6 +33,7 @@ Depends:
     R (>= 4.1)
 Imports:
     envirotox,
+    shinyssdtools,
     ssddata,
     ssdsims,
     ssdtests,
@@ -40,8 +41,6 @@ Imports:
 Suggests: 
     testthat (>= 3.0.0)
 Remotes:
-    open-AIMS/ssddata,
-    poissonconsulting/bboutools,
     poissonconsulting/envirotox,
     poissonconsulting/ssdsims,
     poissonconsulting/ssdtests
