@@ -1,0 +1,7 @@
+url: https://poissonconsulting.github.io/ssdsuite/
+
+template:
+  package: poissontemplate
+
+development:
+  mode: auto
