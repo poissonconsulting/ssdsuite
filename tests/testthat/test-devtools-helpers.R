@@ -1,5 +1,4 @@
-# Copyright 2025 Australian Government Department of Climate Change,
-# Energy, the Environment and Water
+# Copyright 2025 Poisson Consulting Ltd.
 #
 #    Licensed under the Apache License, Version 2.0 (the "License");
 #    you may not use this file except in compliance with the License.

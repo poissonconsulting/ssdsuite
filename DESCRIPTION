@@ -1,5 +1,5 @@
 Package: ssdsuite
-Title: Install and Load Species Sensitivity Distribution Software
+Title: Install and Load Species Sensitivity Distribution Data and Software
 Version: 0.0.0.9000
 Authors@R: c(
     person("Joe", "Thorley", , "joe@poissonconsulting.ca", role = c("aut", "cre"),
@@ -16,17 +16,11 @@ Authors@R: c(
     person("Rick", "van Dam", role = "ctb"),
     person("Graham", "Batley", role = "ctb"),
     person("Ali", "Azizishirazi", role = "ctb"),
-    person("Australian Government Department of Climate Change, Energy, the Environment and Water", role = c("fnd", "cph"))
+    person("Poisson Consulting Ltd.", role = c("fnd", "cph"))
   )
-Description: Species sensitivity distributions are cumulative probability
-    distributions which are fitted to toxicity concentrations for
-    different species as described by Posthuma et al.(2001)
-    <isbn:9781566705783>. The ssdtools package uses Maximum Likelihood to
-    fit distributions such as the gamma, log-logistic, log-normal and
-    log-normal log-normal mixture. Multiple distributions can be averaged
-    using Akaike Information Criteria.  Confidence intervals on hazard
-    concentrations and proportions are produced by bootstrapping.
 License: Apache License (== 2.0) | file LICENSE
+Description: Installs and loads species sensitivity distribution data
+    and software.
 URL: https://github.com/bcgov/ssdsuite, https://bcgov.github.io/ssdsuite/
 BugReports: https://github.com/bcgov/ssdsuite/issues
 Depends:

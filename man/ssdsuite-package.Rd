@@ -4,9 +4,9 @@
 \name{ssdsuite-package}
 \alias{ssdsuite}
 \alias{ssdsuite-package}
-\title{ssdsuite: Install and Load Species Sensitivity Distribution Software}
+\title{ssdsuite: Install and Load Species Sensitivity Distribution Data and Software}
 \description{
-Species sensitivity distributions are cumulative probability distributions which are fitted to toxicity concentrations for different species as described by Posthuma et al.(2001) <isbn:9781566705783>. The ssdtools package uses Maximum Likelihood to fit distributions such as the gamma, log-logistic, log-normal and log-normal log-normal mixture. Multiple distributions can be averaged using Akaike Information Criteria. Confidence intervals on hazard concentrations and proportions are produced by bootstrapping.
+Installs and loads species sensitivity distribution data and software.
 }
 \seealso{
 Useful links:
@@ -37,7 +37,7 @@ Other contributors:
   \item Rick van Dam [contributor]
   \item Graham Batley [contributor]
   \item Ali Azizishirazi [contributor]
-  \item Australian Government Department of Climate Change, Energy, the Environment and Water [funder, copyright holder]
+  \item Poisson Consulting Ltd. [funder, copyright holder]
 }
 
 }
