@@ -11,9 +11,9 @@ Installs and loads species sensitivity distribution data and software.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/bcgov/ssdsuite}
-  \item \url{https://bcgov.github.io/ssdsuite/}
-  \item Report bugs at \url{https://github.com/bcgov/ssdsuite/issues}
+  \item \url{https://github.com/poissonconsulting/ssdsuite}
+  \item \url{https://poissonconsulting.github.io/ssdsuite/}
+  \item Report bugs at \url{https://github.com/poissonconsulting/ssdsuite/issues}
 }
 
 }
