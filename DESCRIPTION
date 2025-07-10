@@ -22,9 +22,9 @@ Authors@R: c(
     person("Australian Institute Marine Science", role = c("fnd", "cph")),
     person("Poisson Consulting", role = c("fnd", "cph"))
   )
+Description: Installs and loads species sensitivity distribution data and
+    software.
 License: Apache License (== 2.0) | file LICENSE
-Description: Installs and loads species sensitivity distribution data
-    and software.
 URL: https://github.com/bcgov/ssdsuite, https://bcgov.github.io/ssdsuite/
 BugReports: https://github.com/bcgov/ssdsuite/issues
 Depends:
@@ -43,6 +43,7 @@ Remotes:
     poissonconsulting/ssdsims,
     poissonconsulting/ssdtests,
     poissonconsulting/ssdtools
+Config/Needs/website: poissonconsulting/poissontemplate
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
