@@ -37,7 +37,11 @@ Other contributors:
   \item Rick van Dam [contributor]
   \item Graham Batley [contributor]
   \item Ali Azizishirazi [contributor]
-  \item Poisson Consulting Ltd. [funder, copyright holder]
+  \item Province of British Columbia [funder, copyright holder]
+  \item Environment and Climate Change Canada [funder, copyright holder]
+  \item Australian Government Department of Climate Change, Energy, the Environment and Water [funder, copyright holder]
+  \item Australian Institute Marine Science [funder, copyright holder]
+  \item Poisson Consulting [funder, copyright holder]
 }
 
 }

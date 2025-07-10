@@ -16,7 +16,11 @@ Authors@R: c(
     person("Rick", "van Dam", role = "ctb"),
     person("Graham", "Batley", role = "ctb"),
     person("Ali", "Azizishirazi", role = "ctb"),
-    person("Poisson Consulting Ltd.", role = c("fnd", "cph"))
+    person("Province of British Columbia", role = c("fnd", "cph")),
+    person("Environment and Climate Change Canada", role = c("fnd", "cph")),
+    person("Australian Government Department of Climate Change, Energy, the Environment and Water", role = c("fnd", "cph")),
+    person("Australian Institute Marine Science", role = c("fnd", "cph")),
+    person("Poisson Consulting", role = c("fnd", "cph"))
   )
 License: Apache License (== 2.0) | file LICENSE
 Description: Installs and loads species sensitivity distribution data
@@ -35,8 +39,10 @@ Suggests:
     testthat (>= 3.0.0)
 Remotes:
     bcgov/shinyssdtools,
+    open-AIMS/ssddata,
     poissonconsulting/ssdsims,
-    poissonconsulting/ssdtests
+    poissonconsulting/ssdtests,
+    poissonconsulting/ssdtools
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

@@ -1,4 +1,9 @@
-# Copyright 2025 Poisson Consulting Ltd.
+# Copyright 2025 Province of British Columbia
+# Copyright 2025 Environment and Climate Change Canada
+# Copyright 2025 Australian Government Department of Climate Change,
+# Energy, the Environment and Water
+# Copyright 2025 Australian Institute of Marine Science
+# Copyright 2025 Poisson Consulting Limited
 #
 #    Licensed under the Apache License, Version 2.0 (the "License");
 #    you may not use this file except in compliance with the License.
@@ -22,7 +27,12 @@
 #' licensing_md()
 licensing_md <- function() {
   "## Licensing
-  Copyright 2025 Poisson Consulting Ltd.\\
+   Copyright 2025 Province of British Columbia\\
+   Copyright 2025 Environment and Climate Change Canada\\
+   Copyright 2025 Australian Government Department of Climate Change,
+   Energy, the Environment and Water\\
+   Copyright 2025 Australian Institute of Marine Science\\
+   Copyright 2025 Poisson Consulting Limited\\
 
   The documentation is released under the
   [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/)
