@@ -29,8 +29,9 @@ Authors:
 
 Other contributors:
 \itemize{
-  \item Angeline Tillmanns [contributor]
   \item Seb Dalgarno \email{seb@poissonconsulting.ca} (\href{https://orcid.org/0000-0002-3658-4517}{ORCID}) [contributor]
+  \item Ayla Pearson [contributor]
+  \item Angeline Tillmanns [contributor]
   \item Kathleen McTavish [contributor]
   \item Heather Thompson [contributor]
   \item Doug Spry [contributor]

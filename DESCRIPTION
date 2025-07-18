@@ -7,9 +7,10 @@ Authors@R: c(
     person("Rebecca", "Fisher", , "R.Fisher@aims.gov.au", role = "aut"),
     person("David", "Fox", , "david.fox@environmetrics.net.au", role = "aut"),
     person("Carl", "Schwarz", role = "aut"),
-    person("Angeline", "Tillmanns", role = "ctb"),
     person("Seb", "Dalgarno", , "seb@poissonconsulting.ca", role = "ctb",
            comment = c(ORCID = "0000-0002-3658-4517")),
+    person("Ayla", "Pearson", role = "ctb"),
+    person("Angeline", "Tillmanns", role = "ctb"),
     person("Kathleen", "McTavish", role = "ctb"),
     person("Heather", "Thompson", role = "ctb"),
     person("Doug", "Spry", role = "ctb"),
@@ -41,11 +42,11 @@ Suggests:
     testthat (>= 3.0.0)
 Remotes:
     poissonconsulting/envirotox,
-    poissonconsulting/shinyssdtools,
+    bcgov/shinyssdtools,
     open-AIMS/ssddata,
     poissonconsulting/ssdsims,
     poissonconsulting/ssdtests,
-    poissonconsulting/ssdtools,
+    bcgov/ssdtools,
     poissonconsulting/ssdvignettes
 Config/Needs/website: poissonconsulting/poissontemplate
 Config/testthat/edition: 3
