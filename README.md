@@ -22,10 +22,50 @@ You can install `ssdsuite` from [GitHub](https://github.com/) with:
 pak::pak("poissonconsulting/ssdsuite")
 ```
 
+### Usage
+
+To load `ssdsuite`
+
+``` r
+library(ssdsuite)
+#> Attaching: envirotox shinyssdtools ssddata ssdsims ssdtests ssdtools ssdvignettes ssdsuite
+```
+
+### Packages
+
+The packages installed and loaded by `ssdsuite` suite are:
+
+- [envirotox](https://github.com/poissonconsulting/envirotox)
+- [shinyssdtools](https://github.com/bcgov/shinyssdtools)
+- [ssddata](https://github.com/open-AIMS/ssddata)
+- [ssdsims](https://github.com/poissonconsulting/ssdsims)
+- [ssdtests](https://github.com/poissonconsulting/ssdtests)
+- [ssdtools](https://github.com/bcgov/ssdtools)
+- [ssdvignettes](https://github.com/poissonconsulting/ssdvignettes)
+
+## Contribution
+
+Please report any
+[issues](https://github.com/poissonconsulting/ssdsuite/issues).
+
+[Pull requests](https://github.com/poissonconsulting/ssdsuite/pulls) are
+always welcome.
+
+## Code of Conduct
+
+Please note that the `ssdsuite` project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
+
 ## Licensing
 
+Copyright 2025 Province of British Columbia  
+Copyright 2025 Environment and Climate Change Canada  
 Copyright 2025 Australian Government Department of Climate Change,
 Energy, the Environment and Water  
+Copyright 2025 Australian Institute of Marine Science  
+Copyright 2025 Poisson Consulting Limited  
 
 The documentation is released under the [CC BY 4.0
 License](https://creativecommons.org/licenses/by/4.0/)

@@ -31,6 +31,38 @@ You can install `ssdsuite` from [GitHub](https://github.com/) with:
 pak::pak("poissonconsulting/ssdsuite")
 ```
 
+### Usage
+
+To load `ssdsuite`
+
+```{r}
+library(ssdsuite)
+```
+
+### Packages
+
+The packages installed and loaded by `ssdsuite` suite are:
+
+- [envirotox](https://github.com/poissonconsulting/envirotox)
+- [shinyssdtools](https://github.com/bcgov/shinyssdtools)
+- [ssddata](https://github.com/open-AIMS/ssddata)
+- [ssdsims](https://github.com/poissonconsulting/ssdsims)
+- [ssdtests](https://github.com/poissonconsulting/ssdtests)
+- [ssdtools](https://github.com/bcgov/ssdtools)
+- [ssdvignettes](https://github.com/poissonconsulting/ssdvignettes)
+
+## Contribution
+
+Please report any [issues](https://github.com/poissonconsulting/ssdsuite/issues).
+
+[Pull requests](https://github.com/poissonconsulting/ssdsuite/pulls) are always welcome.
+
+## Code of Conduct
+
+Please note that the `ssdsuite` project is released with a [Contributor Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
+
 ```{r, results = "asis", echo = FALSE}
 cat(ssdsuite::licensing_md())
 ```
