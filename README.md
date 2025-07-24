@@ -22,6 +22,13 @@ You can install `ssdsuite` from [GitHub](https://github.com/) with:
 pak::pak("poissonconsulting/ssdsuite")
 ```
 
+You can install `ssdsuite` from
+[R-universe](https://poissonconsulting.r-universe.dev/builds) with:
+
+``` r
+install.packages("ssdsuite", repos = "https://poissonconsulting.r-universe.dev", type = "source")
+```
+
 ### Usage
 
 To load `ssdsuite`
