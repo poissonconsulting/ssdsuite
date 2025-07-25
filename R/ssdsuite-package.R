@@ -26,5 +26,7 @@
 #' @importFrom ssdsims ssd_generate_data
 #' @importFrom ssdtests ssdtests_licensing_md
 #' @importFrom ssdtools ssd_dists
+#' @importFrom ssdvignettes get_ssdvignettes_version
+#' @importFrom envirotox list_datasets 
 ## usethis namespace: end
 NULL
