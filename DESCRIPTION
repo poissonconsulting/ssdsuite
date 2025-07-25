@@ -33,21 +33,27 @@ Depends:
 Imports:
     envirotox,
     shinyssdtools,
+    shinywqbench,
     ssddata,
     ssdsims,
     ssdtests,
     ssdtools,
-    ssdvignettes
+    ssdvignettes,
+    wqbench,
+    wqbenchdata
 Suggests: 
     testthat (>= 3.0.0)
 Remotes:
     poissonconsulting/envirotox,
     bcgov/shinyssdtools,
+    bcgov/shinywqbench,
     open-AIMS/ssddata,
     poissonconsulting/ssdsims,
     poissonconsulting/ssdtests,
     poissonconsulting/ssdtools,
-    poissonconsulting/ssdvignettes
+    poissonconsulting/ssdvignettes,
+    bcgov/wqbench,
+    bcgov/wqbenchdata
 Config/Needs/website: poissonconsulting/poissontemplate
 Config/testthat/edition: 3
 Encoding: UTF-8
