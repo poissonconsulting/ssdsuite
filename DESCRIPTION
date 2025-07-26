@@ -34,20 +34,20 @@ Depends:
 Imports:
     envirotox,
     shinyssdtools,
+    shinywqbench,
     ssddata,
     ssdsims,
     ssdtools,
-    ssdvignettes,
     wqbenchdata
 Suggests: 
     testthat (>= 3.0.0)
 Remotes:
     poissonconsulting/envirotox,
+    bcgov/shinywqbench,
     bcgov/shinyssdtools,
     open-AIMS/ssddata,
     poissonconsulting/ssdsims,
     poissonconsulting/ssdtools,
-    poissonconsulting/ssdvignettes,
     bcgov/wqbenchdata
 Config/Needs/website: poissonconsulting/poissontemplate
 Config/testthat/edition: 3
