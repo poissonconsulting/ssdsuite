@@ -32,7 +32,6 @@ BugReports: https://github.com/poissonconsulting/ssdsuite/issues
 Depends:
     R (>= 4.1)
 Imports:
-    envirotox,
     shinyssdtools,
     shinywqbench,
     ssddata,
@@ -49,7 +48,6 @@ Remotes:
     bcgov/wqbench,
     bcgov/wqbenchdata,
     open-AIMS/ssddata,
-    poissonconsulting/envirotox,
     poissonconsulting/ssdsims,
     poissonconsulting/ssdtests,
     poissonconsulting/ssdtools

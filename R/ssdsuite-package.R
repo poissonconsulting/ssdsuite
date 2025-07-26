@@ -21,7 +21,6 @@
 "_PACKAGE"
 
 ## usethis namespace: start
-#' @importFrom envirotox list_datasets 
 #' @importFrom shinyssdtools run_app
 #' @importFrom shinywqbench run_wqbench_app 
 #' @importFrom ssddata ssd_data_sets
