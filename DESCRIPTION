@@ -34,6 +34,7 @@ Depends:
 Imports:
     envirotox,
     shinyssdtools,
+    ssddata,
     ssdtools,
     wqbenchdata
 Suggests: 
@@ -41,6 +42,7 @@ Suggests:
 Remotes:
     poissonconsulting/envirotox,
     bcgov/shinyssdtools,
+    open-AIMS/ssddata,
     poissonconsulting/ssdtools,
     bcgov/wqbenchdata
 Config/Needs/website: poissonconsulting/poissontemplate
