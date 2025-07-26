@@ -28,7 +28,6 @@
 #' @importFrom ssdsims ssd_generate_data
 #' @importFrom ssdtests ssdtests_licensing_md
 #' @importFrom ssdtools ssd_dists
-#' @importFrom ssdvignettes get_ssdvignettes_version
 #' @importFrom wqbench wqb_create_data_set 
 #' @importFrom wqbenchdata get_wqbenchdata 
 ## usethis namespace: end
