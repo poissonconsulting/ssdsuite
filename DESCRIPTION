@@ -36,6 +36,7 @@ Imports:
     shinyssdtools,
     ssddata,
     ssdsims,
+    ssdtests,
     ssdtools,
     wqbenchdata
 Suggests: 
@@ -45,6 +46,7 @@ Remotes:
     bcgov/shinyssdtools,
     open-AIMS/ssddata,
     poissonconsulting/ssdsims,
+    poissonconsulting/ssdtests,
     poissonconsulting/ssdtools,
     bcgov/wqbenchdata
 Config/Needs/website: poissonconsulting/poissontemplate
