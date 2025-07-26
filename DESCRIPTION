@@ -26,7 +26,8 @@ Authors@R: c(
 Description: Installs and loads species sensitivity distribution data and
     software.
 License: Apache License (== 2.0) | file LICENSE
-URL: https://github.com/poissonconsulting/ssdsuite, https://poissonconsulting.github.io/ssdsuite/
+URL: https://github.com/poissonconsulting/ssdsuite,
+    https://poissonconsulting.github.io/ssdsuite/
 BugReports: https://github.com/poissonconsulting/ssdsuite/issues
 Depends:
     R (>= 4.1)
@@ -35,9 +36,8 @@ Imports:
     shinyssdtools,
     ssddata,
     ssdsims,
-    ssdtests,
     ssdtools,
-    ssdvignettes
+    wqbenchdata
 Suggests: 
     testthat (>= 3.0.0)
 Remotes:
@@ -45,9 +45,8 @@ Remotes:
     bcgov/shinyssdtools,
     open-AIMS/ssddata,
     poissonconsulting/ssdsims,
-    poissonconsulting/ssdtests,
-    bcgov/ssdtools,
-    poissonconsulting/ssdvignettes
+    poissonconsulting/ssdtools,
+    bcgov/wqbenchdata
 Config/Needs/website: poissonconsulting/poissontemplate
 Config/testthat/edition: 3
 Encoding: UTF-8
