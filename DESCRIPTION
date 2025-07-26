@@ -34,9 +34,6 @@ Depends:
 Imports:
     shinyssdtools,
     shinywqbench,
-    ssddata,
-    ssdsims,
-    ssdtests,
     ssdtools,
     wqbench,
     wqbenchdata
@@ -47,9 +44,6 @@ Remotes:
     bcgov/shinywqbench,
     bcgov/wqbench,
     bcgov/wqbenchdata,
-    open-AIMS/ssddata,
-    poissonconsulting/ssdsims,
-    poissonconsulting/ssdtests,
     poissonconsulting/ssdtools
 Config/Needs/website: poissonconsulting/poissontemplate
 Config/testthat/edition: 3
