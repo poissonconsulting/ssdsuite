@@ -21,7 +21,11 @@
 "_PACKAGE"
 
 ## usethis namespace: start
+#' @importFrom envirotox list_datasets
 #' @importFrom shinyssdtools run_app
+#' @importFrom ssddata ssd_data_sets
+#' @importFrom ssdsims ssd_generate_data
 #' @importFrom ssdtools ssd_dists
+#' @importFrom wqbenchdata get_wqbenchdata
 ## usethis namespace: end
 NULL

@@ -34,7 +34,6 @@ Depends:
 Imports:
     envirotox,
     shinyssdtools,
-    shinywqbench,
     ssddata,
     ssdsims,
     ssdtools,
@@ -43,7 +42,6 @@ Suggests:
     testthat (>= 3.0.0)
 Remotes:
     poissonconsulting/envirotox,
-    bcgov/shinywqbench,
     bcgov/shinyssdtools,
     open-AIMS/ssddata,
     poissonconsulting/ssdsims,
