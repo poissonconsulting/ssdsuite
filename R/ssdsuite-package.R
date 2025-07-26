@@ -22,9 +22,6 @@
 
 ## usethis namespace: start
 #' @importFrom shinyssdtools run_app
-#' @importFrom shinywqbench run_wqbench_app 
 #' @importFrom ssdtools ssd_dists
-#' @importFrom wqbench wqb_create_data_set 
-#' @importFrom wqbenchdata get_wqbenchdata 
 ## usethis namespace: end
 NULL
