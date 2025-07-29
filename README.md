@@ -35,7 +35,7 @@ To load `ssdsuite`
 
 ``` r
 library(ssdsuite)
-#> Attaching: envirotox shinyssdtools ssddata ssdsims ssdtools wqbenchdata ssdvignettes ssdsuite
+#> Attaching: envirotox shinyssdtools shinywqbench ssddata ssdsims ssdtests ssdtools ssdvignettes wqbench wqbenchdata ssdsuite
 ```
 
 ### Packages
