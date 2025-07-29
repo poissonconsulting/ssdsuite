@@ -10,7 +10,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![R-CMD-check](https://github.com/poissonconsulting/ssdsuite/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/poissonconsulting/ssdsuite/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of ssdsuite is to facilitate installation and loading of
+The goal of `ssdsuite` is to facilitate installation and loading of
 species sensitivity distribution data and software.
 
 ## Installation
@@ -35,7 +35,7 @@ To load `ssdsuite`
 
 ``` r
 library(ssdsuite)
-#> Attaching: envirotox shinyssdtools ssddata ssdsims ssdtests ssdtools ssdvignettes ssdsuite
+#> Attaching: envirotox shinyssdtools ssddata ssdsims ssdtools wqbenchdata ssdvignettes ssdsuite
 ```
 
 ### Packages
