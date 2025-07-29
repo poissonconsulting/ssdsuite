@@ -44,11 +44,14 @@ The packages installed and loaded by `ssdsuite` suite are:
 
 - [envirotox](https://github.com/poissonconsulting/envirotox)
 - [shinyssdtools](https://github.com/bcgov/shinyssdtools)
+- [shinywqbench](https://github.com/poissonconsulting/shinywqbench/tree/dev)
 - [ssddata](https://github.com/open-AIMS/ssddata)
 - [ssdsims](https://github.com/poissonconsulting/ssdsims)
 - [ssdtests](https://github.com/poissonconsulting/ssdtests)
-- [ssdtools](https://github.com/bcgov/ssdtools)
+- [ssdtools](https://github.com/poissonconsulting/ssdtools/tree/dev)
 - [ssdvignettes](https://github.com/poissonconsulting/ssdvignettes)
+- [wqbench](https://github.com/poissonconsulting/wqbench/tree/dev)
+- [wqbenchdata](https://github.com/bcgov/wqbenchdata)
 
 ## Contribution
 
