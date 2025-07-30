@@ -21,10 +21,15 @@
 "_PACKAGE"
 
 ## usethis namespace: start
+#' @importFrom envirotox list_datasets
 #' @importFrom shinyssdtools run_app
+#' @importFrom shinywqbench run_wqbench_app
 #' @importFrom ssddata ssd_data_sets
 #' @importFrom ssdsims ssd_generate_data
 #' @importFrom ssdtests ssdtests_licensing_md
 #' @importFrom ssdtools ssd_dists
+#' @importFrom ssdvignettes get_ssdvignettes_version
+#' @importFrom wqbench wqb_create_data_set
+#' @importFrom wqbenchdata get_wqbenchdata
 ## usethis namespace: end
 NULL
