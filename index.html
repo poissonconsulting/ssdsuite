@@ -26,7 +26,7 @@
 
     <a class="navbar-brand me-2" href="index.html">ssdsuite</a>
 
-    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unreleased version">0.0.0.9000</small>
+    <small class="nav-text text-danger me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Unreleased version">0.0.0.9001</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +36,7 @@
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
 <li class="nav-item"><a class="nav-link" href="reference/index.html">Reference</a></li>
+<li class="nav-item"><a class="nav-link" href="news/index.html">Changelog</a></li>
       </ul>
 <ul class="navbar-nav">
 <li class="nav-item"><form class="form-inline" role="search">
@@ -54,7 +55,7 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>The goal of ssdsuite is to facilitate installation and loading of species sensitivity distribution data and software.</p>
+<p>The goal of <code>ssdsuite</code> is to facilitate installation and loading of species sensitivity distribution data and software.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
@@ -62,11 +63,54 @@
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># install.packages("pak")</span></span>
 <span><span class="fu">pak</span><span class="fu">::</span><span class="fu"><a href="https://pak.r-lib.org/reference/pak.html" class="external-link">pak</a></span><span class="op">(</span><span class="st">"poissonconsulting/ssdsuite"</span><span class="op">)</span></span></code></pre></div>
+<p>You can install <code>ssdsuite</code> from <a href="https://poissonconsulting.r-universe.dev/builds" class="external-link">R-universe</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"ssdsuite"</span>, repos <span class="op">=</span> <span class="st">"https://poissonconsulting.r-universe.dev"</span>, type <span class="op">=</span> <span class="st">"source"</span><span class="op">)</span></span></code></pre></div>
+<div class="section level3">
+<h3 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
+</h3>
+<p>To load <code>ssdsuite</code></p>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/poissonconsulting/ssdsuite" class="external-link">ssdsuite</a></span><span class="op">)</span></span>
+<span><span class="co">#&gt; Attaching: envirotox shinyssdtools shinywqbench ssddata ssdsims ssdtests ssdtools ssdvignettes wqbench wqbenchdata ssdsuite</span></span></code></pre></div>
+</div>
+<div class="section level3">
+<h3 id="packages">Packages<a class="anchor" aria-label="anchor" href="#packages"></a>
+</h3>
+<p>The packages installed and loaded by <code>ssdsuite</code> suite are:</p>
+<ul>
+<li><a href="https://github.com/poissonconsulting/envirotox" class="external-link">envirotox</a></li>
+<li><a href="https://github.com/bcgov/shinyssdtools" class="external-link">shinyssdtools</a></li>
+<li><a href="https://github.com/poissonconsulting/shinywqbench/tree/dev" class="external-link">shinywqbench</a></li>
+<li><a href="https://github.com/open-AIMS/ssddata" class="external-link">ssddata</a></li>
+<li><a href="https://github.com/poissonconsulting/ssdsims" class="external-link">ssdsims</a></li>
+<li><a href="https://github.com/poissonconsulting/ssdtests" class="external-link">ssdtests</a></li>
+<li><a href="https://github.com/poissonconsulting/ssdtools/tree/dev" class="external-link">ssdtools</a></li>
+<li><a href="https://github.com/poissonconsulting/ssdvignettes" class="external-link">ssdvignettes</a></li>
+<li><a href="https://github.com/poissonconsulting/wqbench/tree/dev" class="external-link">wqbench</a></li>
+<li><a href="https://github.com/bcgov/wqbenchdata" class="external-link">wqbenchdata</a></li>
+</ul>
+</div>
+</div>
+<div class="section level2">
+<h2 id="contribution">Contribution<a class="anchor" aria-label="anchor" href="#contribution"></a>
+</h2>
+<p>Please report any <a href="https://github.com/poissonconsulting/ssdsuite/issues" class="external-link">issues</a>.</p>
+<p><a href="https://github.com/poissonconsulting/ssdsuite/pulls" class="external-link">Pull requests</a> are always welcome.</p>
+</div>
+<div class="section level2">
+<h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
+</h2>
+<p>Please note that the <code>ssdsuite</code> project is released with a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 </div>
 <div class="section level2">
 <h2 id="licensing">Licensing<a class="anchor" aria-label="anchor" href="#licensing"></a>
 </h2>
-<p>Copyright 2025 Australian Government Department of Climate Change, Energy, the Environment and Water</p>
+<p>Copyright 2025 Province of British Columbia<br>
+Copyright 2025 Environment and Climate Change Canada<br>
+Copyright 2025 Australian Government Department of Climate Change, Energy, the Environment and Water<br>
+Copyright 2025 Australian Institute of Marine Science<br>
+Copyright 2025 Poisson Consulting Limited</p>
 <p>The documentation is released under the <a href="https://creativecommons.org/licenses/by/4.0/" class="external-link">CC BY 4.0 License</a></p>
 <p>The code is released under the <a href="https://www.apache.org/licenses/LICENSE-2.0" class="external-link">Apache License 2.0</a></p>
 </div>
