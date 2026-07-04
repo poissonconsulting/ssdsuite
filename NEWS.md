@@ -1,5 +1,10 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# ssdsuite 0.0.0.9003 (2026-07-04)
+
+- Same as previous version.
+
+
 # ssdsuite 0.0.0.9002 (2026-06-18)
 
 * Add fledge-bump workflow
