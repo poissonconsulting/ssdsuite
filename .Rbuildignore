@@ -2,4 +2,5 @@
 ^\.Rproj\.user$
 ^\.github$
 ^README\.Rmd$
-^_pkgdown\.yml$
+^_pkgdown\.yml$^[.]?air[.]toml$
+^\.vscode$
